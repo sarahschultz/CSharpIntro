@@ -8,3 +8,7 @@ Matt Milner, January 2022
 2 hours 38 minutes
 
 
+Context in which the program executes
+C# code file compiles to MSIL - Microsoft Intermediate Language
+(F# and vb.NET also are compiled to MSIL)
+
