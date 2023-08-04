@@ -81,3 +81,50 @@ The out keyword specifies that a parameter is used to return a value instead of 
 the parameters are going to be used to return values back to the caller, and not used to supply data TO the function
 
 When you call the function, you need the out keywords in the arguments
+
+Enables a function to return multiple values, see this a bunch in old C# code, but these days we use a Tuple structure - go over later.
+
+
+*Returning Multiple Values - tuples
+A tuple is a tight knit data structure that allows you to group multiple values together in one place.
+
+With Tuples, it makes it possible for functions to return multiple values
+THIS IS THE PREFERRED WAY VS. OUT KEYWORD
+
+
+Challenge - Palindrome exercise
+
+C# Classes - Blueprints for making C# Objects
+Access Modifiers - let us control how the code/data in the class are exposed in other parts of our program
+
+There are more but they are advanced, these are more likely to be encountered.X
+
+
+
+fnA1 good, 
+A2 and A3 won’t work
+
+Class properties:
+https://lnkd.in/gBkGpzJ
+
+
+Use inheritance to build class hierarchies
+
+
+In C# since every class implicitly inherits from the base object class, which we can find at:
+https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0
+
+
+ToString function also can be overwritten to force into strings
+
+To override a string, literally add the word override keyword
+
+
+Challenge:
+Set up bank accounts
+
+Think about how you’d organize your own classes to come to the same result (in above green terminal).
+
+Joe’s solution:
+Made 3 classes:
+Base = BankAccount (hold both common methods shared by savings and checking)
