@@ -124,7 +124,3 @@ Challenge:
 Set up bank accounts
 
 Think about how you’d organize your own classes to come to the same result (in above green terminal).
-
-Joe’s solution:
-Made 3 classes:
-Base = BankAccount (hold both common methods shared by savings and checking)
